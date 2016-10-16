@@ -1,4 +1,0 @@
----
-  - name: install mongodb software
-    host: mongodbserver
-    shell: yum -y install mongodb
