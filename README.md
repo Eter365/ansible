@@ -1,15 +1,21 @@
 # ansible_playbook for mongodb
 
-##### 1. Install mongodb software
+##### 1. Install/Uninstall mongodb software
 
-##### 2. ADD / REMOVE mongodb instance.
+##### 1.1 version 2.4
+##### 1.2 version 2.6
+##### 1.3 version 3.2
 
-##### 3. ADD / REMOVE mongodb Repl Set.
+##### 2. mongodb instance state manager:
 
-##### 4. ADD / REMOVE mongodb Cluster.
+###### 2.1. ADD / REMOVE mongodb standalone.
+###### 2.2. ADD / REMOVE mongodb Repl Set.
+###### 2.3. ADD / REMOVE mongodb Cluster.
 
-##### 5. ADD / REMOVE mongodb monitor in MMS.
+##### 3. mongodb monitor manager:
 
-##### 6. ADD / REMOVE mongodb monitor in WCDB.
+###### 3.1. ADD / REMOVE mongodb monitor in MMS.
+###### 3.2. ADD / REMOVE mongodb monitor in WCDB.
 
-##### 7. ADD / REMOVE mongodb Backup in WCDB.
+##### 4. mongodb Backup manager:
+###### 4.1 Backup in WCDB.
